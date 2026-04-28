@@ -1,0 +1,81 @@
+export const T = {
+  ink: "var(--rc-bg-page)",
+  inkLight: "var(--rc-bg-surface)",
+  inkMid: "var(--rc-bg-card)",
+  elevated: "var(--rc-bg-elevated)",
+  card: "var(--rc-bg-card)",
+  card2: "var(--rc-bg-card-2)",
+  paper: "var(--rc-text-primary)",
+  paperDim: "var(--rc-text-muted)",
+  cyan: "var(--rc-brand-cyan)",
+  cyanDim: "var(--color-cyan-dim)",
+  cyanMid: "var(--color-cyan-mid)",
+  brandPrimary: "var(--rc-brand-primary)",
+  brandSecondary: "var(--rc-brand-secondary)",
+  orange: "var(--rc-status-caution)",
+  orangeDim: "var(--color-orange-dim)",
+  violet: "var(--rc-brand-primary)",
+  violetDim: "var(--color-violet-dim)",
+  green: "var(--rc-status-success)",
+  greenDim: "var(--color-green-dim)",
+  pink: "var(--rc-status-danger)",
+  pinkDim: "var(--color-pink-dim)",
+  gold: "var(--rc-brand-premium)",
+  goldDim: "var(--color-gold-dim)",
+  muted: "var(--rc-text-subtle)",
+  mutedLight: "var(--rc-text-muted)",
+  border: "var(--rc-border-default)",
+  borderLight: "var(--rc-border-subtle)",
+  borderStrong: "var(--rc-border-strong)",
+  glass: "var(--color-glass)",
+  space4: 4,
+  space8: 8,
+  space12: 12,
+  space16: 16,
+  space24: 24,
+  space32: 32,
+  space40: 40,
+  controlSm: 32,
+  controlMd: 40,
+  controlLg: 48,
+  radius: "var(--rc-radius-lg)",
+  radiusSm: "var(--rc-radius-sm)",
+  radiusMd: "var(--rc-radius-md)",
+  radiusXs: "var(--rc-radius-xs)",
+  radiusLg: "var(--rc-radius-2xl)",
+  radiusXl: "var(--rc-radius-xl)",
+  radiusFull: "var(--rc-radius-full)",
+  shadow: "var(--rc-shadow-lg)",
+  shadowSm: "var(--rc-shadow-md)",
+  shadowXs: "var(--rc-shadow-sm)",
+  brandGradient: "var(--gradient-brand)",
+  heroGradient: "var(--gradient-hero)",
+  panel: "var(--color-panel)",
+  panelStrong: "var(--color-panel-strong)",
+  motionFast: "var(--rc-motion-fast)",
+  motionStandard: "var(--rc-motion-standard)",
+  motionEasing: "var(--rc-motion-easing)",
+};
+
+export const font = {
+  display: "var(--rc-font-display)",
+  body: "var(--rc-font-sans)",
+  mono: "var(--rc-font-mono)",
+};
+
+export function alpha(color, percent = 14) {
+  return `color-mix(in srgb, ${color} ${percent}%, transparent)`;
+}
+
+export const buttonReset = {
+  appearance: "none",
+  WebkitAppearance: "none",
+  border: "none",
+  background: "none",
+  font: "inherit",
+};
+
+export const BREAKPOINTS = {
+  mobile: 640,
+  tablet: 960,
+};
